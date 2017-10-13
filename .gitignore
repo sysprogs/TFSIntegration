@@ -1,0 +1,5 @@
+.vs
+/VSS-VisualGDB/buildtask/node_modules
+/VSS-VisualGDB/obj/Debug/*.cache
+/VSS-VisualGDB/obj/Debug/VSS-VisualGDB.njsproj.FileListAbsolute.txt
+/VSS-VisualGDB/bin

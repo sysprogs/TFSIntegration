@@ -1,0 +1,61 @@
+﻿{
+    "id": "{5B6DA787-0719-4E72-95B1-C77976D4D798}",
+    "name": "com.sysprogs.visualgdb.vss.build",
+    "friendlyName": "VisualGDB Build",
+    "description": "Builds a VisualGDB project",
+    "helpMarkDown": "",
+    "category": "Build",
+    "author": "Sysprogs",
+    "version": {
+        "Major": 1,
+        "Minor": 0,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Build $(SettingsFileMask)",
+    "groups": [
+        {
+            "name": "advanced",
+            "displayName": "Advanced",
+            "isExpanded": false
+        }
+    ],
+    "inputs": [
+        {
+            "name": "SettingsFileMask",
+            "type": "string",
+            "label": "Settings Files",
+            "defaultValue": "*/*-Release.vgdbsettings;*/*.vgdbcmake",
+            "required": false,
+            "helpMarkDown": "Specifies .vgdbsettings or .vgdbcmake files to build"
+        },
+        {
+            "name": "ConfigName",
+            "type": "string",
+            "label": "Configuration Name (optional)",
+            "defaultValue": "",
+            "required": false,
+            "helpMarkDown": "Specifies the configuration to build (recommended for .vgdbcmake projects)"
+        },
+        {
+            "name": "ExtraArgs",
+            "type": "string",
+            "label": "Additional arguments to VisualGDB",
+            "defaultValue": "",
+            "required": false,
+            "helpMarkDown": "Specifies additional arguments to pass to VisualGDB"
+        },
+        {
+            "name": "TeamSettingsFolder",
+            "type": "string",
+            "label": "Team Settings Folder",
+            "defaultValue": "",
+            "required": false,
+            "helpMarkDown": "Specifies the folder with shared team settings that will be applied before the build"
+        }
+    ],
+    "execution": {
+        "Node": {
+            "target": "index.js"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "vss-visual-gdb",
+  "version": "0.0.0",
+  "description": "VSS-VisualGDB",
+  "main": "app.js",
+  "author": {
+    "name": "sysprogs"
+  },
+  "dependencies": {
+    "tfx-cli": "^0.4.11",
+    "vsts-task-lib": "^2.1.0"
+  }
+}

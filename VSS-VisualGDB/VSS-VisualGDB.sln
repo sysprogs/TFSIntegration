@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "VSS-VisualGDB", "VSS-VisualGDB.njsproj", "{691A1BB6-B1A1-4E3F-AE4D-1044D7056AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691A1BB6-B1A1-4E3F-AE4D-1044D7056AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691A1BB6-B1A1-4E3F-AE4D-1044D7056AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691A1BB6-B1A1-4E3F-AE4D-1044D7056AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691A1BB6-B1A1-4E3F-AE4D-1044D7056AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3CF8612-F20D-484B-82FC-9CFD56071750}
+	EndGlobalSection
+EndGlobal

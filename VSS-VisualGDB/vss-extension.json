@@ -1,0 +1,36 @@
+﻿{
+    "manifestVersion": 1,
+    "id": "VisualGDB-build",
+    "name": "VisualGDB Build Tools",
+    "version": "1.0.0",
+    "publisher": "sysprogssoftware",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Tools for building VisualGDB projects without Visual Studio",
+    "categories": [
+        "Build and release"
+    ],
+    "icons": {
+        "default": "images/vgdb32.png"
+    },
+    "files": [
+        {
+            "path": "buildtask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "build_VisualGDB_project",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "buildtask"
+            }
+        }
+    ]
+}
