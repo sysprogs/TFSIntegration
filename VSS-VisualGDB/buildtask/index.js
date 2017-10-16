@@ -55,7 +55,7 @@ function StartNextJob() {
 }
 
 if (teamSettingsFolder) {
-    var tool = tl.tool(vgdbDir + '\\VisualGDB.exe').arg("/teamsync:").arg(teamSettingsFolder);
+    var tool = tl.tool(vgdbDir + '\\VisualGDB.exe').arg("/teamsync:" + teamSettingsFolder);
 
     tool.exec().then(function (code) {
         if (code != 0) {
