@@ -3,7 +3,7 @@
     "id": "VisualGDB-build",
     "name": "VisualGDB Build Tools",
     "version": "1.0.0",
-    "publisher": "sysprogssoftware",
+    "publisher": "Sysprogs",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
